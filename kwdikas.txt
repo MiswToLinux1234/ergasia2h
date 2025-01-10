@@ -80,7 +80,7 @@ srand(time(NULL));
 arxikopoihsh_katalogou();
 
 int pipes[num_pelatwn][2]; //Xrhsimopoioume to pipe gia paraggelies apo pelates
-int apanthseis_pipes[num_pelatwn][5]; // Xrhsimopoioume auto to pipe gia apanthseis pros tous pelates
+int apanthseis_pipes[num_pelatwn][2]; // Xrhsimopoioume auto to pipe gia apanthseis pros tous pelates
 
 // Dhmiourgia dioxeuteysewn
 
