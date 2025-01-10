@@ -10,3 +10,7 @@ fork ()
 srand ()
 //wait
 wait() 
+//write
+write()
+//read
+read()
