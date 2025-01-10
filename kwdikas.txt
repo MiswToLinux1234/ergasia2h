@@ -32,7 +32,7 @@ void arxikopoihsh_katalogou()
    {
     printf(Katalogos_Proiontwn[i].perigrafh,"Proion %d",i);
     Katalogos_Proiontwn[i].timh = (float()(rand()% 100 + 1); // tyxaies times mexri to 100
-    Katalogos_Proiontwn[i].sum1=5; // metrhths antikeimenwn
+    Katalogos_Proiontwn[i].sum1=2; // metrhths antikeimenwn
     Katalogos_Proiontwn[i].sum2=0; // metrhths poul.ant
     Katalogos_Proiontwn[i].sum3=0; // metrhths ant. pou zht
     Katalogos_Proiontwn[i].sum4=0; // metrhths apot. ant
