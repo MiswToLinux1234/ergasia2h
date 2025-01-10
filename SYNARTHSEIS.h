@@ -14,3 +14,5 @@ wait()
 write()
 //read
 read()
+//exit
+exit()
