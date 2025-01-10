@@ -84,7 +84,7 @@ int apanthseis_pipes[num_pelatwn][2]; // Xrhsimopoioume auto to pipe gia apanths
 
 // Dhmiourgia dioxeuteysewn
 
-for (int = 0; i< num_pelatwn ;i++ ) 
+for (int i = 0; i< num_pelatwn ;i++ ) 
   {
     if (pipe(pipes[i])== -1 || pipe(apanthseis_pipes[i])== -1) 
       {
@@ -117,7 +117,7 @@ for (int = 0; i< num_pelatwn ;i++ )
             }
             close(pipes[i][1]);
             close(apanthseis_pipes[i][0]);
-            exit(EPITYXIA_EXIT);
+          exit(EPITYXIA_EXIT);
         }
      }
 
