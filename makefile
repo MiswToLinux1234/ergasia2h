@@ -1,27 +1,27 @@
 Aκολουθούν οι κανόνες μεταγλώτισσης του προγράμματος μας!
-  //Compliler
+  #Compliler
 CC = gcc
- //Compiler flags
+ #Compiler flags
 CFLAGS = Wall - Wextra -std=c99 -pedantic
- //Souce Files
+ #Souce Files
 SRC = kwdikas.c
- //Output
+ #Output
 OUT = e_shop
- //Rules
+ #Rules
 all: $(OUT)
 $(OUT): $(SRC)
   $(CC) $(CFLAGS) -o $(OUT) $(SRC)
 
-//Clean files
+#Clean files
 
   clean: 
        rm -f $(OUT)
 
-//Run
+#Run
 
  run: $(OUT)
    ./$(OUT)
 
-//Rebuild
+#Rebuild
 
  rebuild: clean all
